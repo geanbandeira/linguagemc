@@ -4,9 +4,11 @@
 #define TAM 10
 int main()
 {
- setlocale(LC_ALL, "");
+ setlocale(LC_ALL, "Portuguese");
+ 
  int numeros[TAM];
  int i, aux, contador;
+ 
 printf("Entre com dez números para preencher o array, e pressione enter após digitar cada um:\n");
  for (i = 0; i < TAM; i++) {
  scanf("%d", &numeros[i]);
