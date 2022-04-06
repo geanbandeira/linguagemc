@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <conio.h>
-#define TAM 12
+#define TAM 10
 
 int main(){
 	int numeros[TAM];
