@@ -6,9 +6,19 @@ void insertion(int *a);
 int main(){
 int i, vet[TAM];
  
-	printf("Digite 10 Valores \n");
-	for(i = 0; i < TAM; i++){
-	scanf("%d", &vet[i]);
+printf("Digite 10 Valores \n");
+for(i = 0; i < TAM; i++){
+scanf("%d", &vet[i]);
+}
+
+insertion(vet);
+printf("Valores ordenados\n");
+for(i = 0; i < TAM; i++){
+printf("%d\n", vet[i]);
+}
+
+system("pause");
+return 0;
 }
 
 void insertion(int *a){
@@ -22,17 +32,6 @@ a[j+1] = a[j];
 a[j+1] = tmp;
 	}
 }
-
-insertion(vet);
-printf("Valores ordenados\n");
-for(i = 0; i < TAM; i++){
-printf("%d\n", vet[i]);
-}
-
-system("pause");
-return 0;
-}
-
 
 
 
