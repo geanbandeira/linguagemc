@@ -1,7 +1,9 @@
+//https://www.arquivodecodigos.com.br/dicas/3813-c-como-usar-pesquisa-ou-busca-linear-ou-sequencial-nos-elementos-de-um-vetor-na-linguagem-c.html
+// método que permite efetuar a busca linear em um vetor 
+
 #include <stdio.h>
-#include <stdlib.h>
- //https://www.arquivodecodigos.com.br/dicas/3813-c-como-usar-pesquisa-ou-busca-linear-ou-sequencial-nos-elementos-de-um-vetor-na-linguagem-c.html
-// método que permite efetuar a busca linear em um vetor  
+#include <stdlib.h> 
+
 int pesquisa_linear(int vetor[], int tam, int valor){    
   // percorre os elementos do vetor
   int i;
