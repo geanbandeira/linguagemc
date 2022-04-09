@@ -5,8 +5,7 @@
 int main(){
 	int vet[TAM];
 	int buscar, i;
-	int n=10;
-	int resp[n];
+	int resp[TAM];
 	int p=0;
 	
 printf("Entre com os todos os números que deseja\n", setlocale(LC_ALL,""));
@@ -20,7 +19,7 @@ for(i=0;i<TAM;i++){
 	
 	printf("Entre com o número que voce deseja encontrar\n", setlocale(LC_ALL,""));
 	scanf("%d", &buscar);
-	for(i=0;i<=n-1;i++){
+	for(i=0;i<=TAM-1;i++){
 		if(vet[i] == buscar){
 			resp[p]=i;
 			p=p+1;
