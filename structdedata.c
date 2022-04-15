@@ -39,7 +39,7 @@ if(p.ano < p.ano1){
 	printf("A data %d  %d  %d ocorreu antes\n", p.dia1, p.mes1, p.ano1);
 	
 	} else {
-	printf("As datas são iguais");
+	printf("As datas sÃ£o iguais");
 	}
 	}
 	} 
