@@ -46,12 +46,12 @@ int main() {
 
     do{
     	printf("\n\n | Digite o numero desejado\n");
-        printf("\n0 - Sair\n");
-        printf("\n1 - Empilhar UM Numero \n");
-        printf("\n2 - Empilhar 200 Numeros aleatorios\n");
-        printf("\n3 - Desempilhar UM Numero\n");
-        printf("\n4 - Desempilhar 200 Numeros de uma vez\n");
-        printf("\n5 - Mostrar\n");
+        printf("\n 0 - Sair\n");
+        printf("\n 1 - Empilhar UM Numero \n");
+        printf("\n 2 - Empilhar 200 Numeros aleatorios\n");
+        printf("\n 3 - Desempilhar UM Numero\n");
+        printf("\n 4 - Desempilhar 200 Numeros de uma vez\n");
+        printf("\n 5 - Mostrar\n");
         scanf("%d", &op);
 
         switch(op){
