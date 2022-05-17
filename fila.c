@@ -51,6 +51,7 @@ int main(){
     int opcao, valor;
 
     do{
+    	printf("\n\t| Digite o numero desejado\n\n");
         printf("\t0 - Sair\n\t1 - Inserir um numero na fila\n\t2 - Inserir 100 numeros aleatorios \n\t3 - Remover um numero da fila\n\t4 - Remover 100 numeros\n\t5 - Imprimir\n");
         scanf("%d", &opcao);
 
@@ -98,5 +99,3 @@ int main(){
 
     return 0;
 }
-
-
