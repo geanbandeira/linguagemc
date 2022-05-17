@@ -11,16 +11,13 @@ typedef struct{
     int tam;
 }Pilha;
 
-//empilhar
 void empilhar(Pilha *p, int x){
     No *no = malloc(sizeof(No));
     no->valor = x;
     no->proximo = p->topo;
     p->topo = no;
-    
 }
 
-//desempilhar
 No* desempilhar(Pilha *p){
     No *no = NULL;
     if(p->topo){
@@ -45,13 +42,13 @@ int main() {
     p.topo = NULL;
 
     do{
-    	printf("\n\n | Digite o numero desejado\n");
-        printf("\n 0 - Sair\n");
-        printf("\n 1 - Empilhar UM Numero \n");
-        printf("\n 2 - Empilhar 200 Numeros aleatorios\n");
-        printf("\n 3 - Desempilhar UM Numero\n");
-        printf("\n 4 - Desempilhar 200 Numeros de uma vez\n");
-        printf("\n 5 - Mostrar\n");
+    	printf("\n | Digite o numero desejado");
+        printf("\n 0 - Sair");
+        printf("\n 1 - Empilhar UM Numero");
+        printf("\n 2 - Empilhar 200 Numeros aleatorios");
+        printf("\n 3 - Desempilhar UM Numero");
+        printf("\n 4 - Desempilhar 200 Numeros de uma vez");
+        printf("\n 5 - Mostrar\n\n ");
         scanf("%d", &op);
 
         switch(op){
@@ -64,10 +61,11 @@ int main() {
             empilhar(&p, valor);
             break;
         case 2:
-            printf("\n\tForam empilhados 200 Numeros\n");
+            srand(time(NULL));
             for (valor = 0; valor<200; valor++){
             empilhar(&p, rand() % 100);
         }
+        printf("\n\tForam empilhados 200 Numeros\n");
             break;
         case 3:
             no = desempilhar(&p);
