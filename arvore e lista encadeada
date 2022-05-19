@@ -1,0 +1,13 @@
+1- Estudar pseudo completo com ex já feitos. (estrutura e valores)
+
+2- lista encadeada ver exemplos em pseudo.  (tentar colocar tam e inserir e qlqr posicao fila e pilha, listas)
+3- mandar rar os exercicios
+arvore (tem diretorio. lista , pilha... nao)
+1- nós folhas sempre 0, nos internos tem descentende, 1 pra mais (grau).
+2- altura em relaçao ao no folha a o 1 tendo 4 niveis, conta com ele.
+3- arvore n-aria > binaria
+4- menor esquerda, maior direita. sendo a menor, e z maior no exemplo.
+5- arvore tem 3 percursos para o exercicio
+pre (no, es, di)
+em ordem (esq, no, dir)
+pos (esq, dir, no)
