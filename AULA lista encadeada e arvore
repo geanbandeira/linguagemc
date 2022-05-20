@@ -15,3 +15,6 @@ arvore (tem diretorio. lista , pilha... nao)
 pre (no, es, di)
 em ordem (esq, no, dir)
 pos (esq, dir, no)
+
+
+*fazer busca binaria
